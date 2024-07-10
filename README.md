@@ -12,10 +12,10 @@ WeatherScan is a sleek and modern weather application that provides current weat
 
 ## Screenshots
 
-![WeatherScan Home](![1](https://github.com/arshad1900/WeatherScan/assets/116487598/022e99aa-946a-40ec-b3d1-91fc7310490e)
-)
-![WeatherScan Forecast](![2](https://github.com/arshad1900/WeatherScan/assets/116487598/f9beb424-6b6d-4d81-ac5d-2ec88408e608)
-)
+![WeatherScan Home]![1](https://github.com/arshad1900/WeatherScan/assets/116487598/022e99aa-946a-40ec-b3d1-91fc7310490e)
+
+![WeatherScan Forecast]![2](https://github.com/arshad1900/WeatherScan/assets/116487598/f9beb424-6b6d-4d81-ac5d-2ec88408e608)
+
 
 ## Technologies Used
 
