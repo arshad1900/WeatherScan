@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherScan</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>WeatherScan</h1>
+        <div class="weather-info">
+            <input type="text" id="city" placeholder="Enter city name">
+            <button onclick="getWeather()"><i class="fas fa-search"></i>Get Weather</button>
+            <div id="weatherDisplay"></div>
+            <div id="extendedForecast"></div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer__social">
+            <a href="https://www.linkedin.com/in/arshad-sayed19/" class="footer__icon"><i class='bx bxl-linkedin' ></i></a>
+            <a href="https://www.instagram.com/arshad.films/" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+            <a href="https://github.com/arshad1900" class="footer__icon"><i class='bx bxl-github' ></i></a>
+        </div>
+        <p class="footer__copy">&#169; Copyright | Arshad Sayed | All rigths reserved</p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+</body>
+</html>

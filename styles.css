@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton+SC&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap");
+
+body {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    color: #fff;
+    font-family: "Kanit", sans-serif;
+    backdrop-filter: blur(9px);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    text-align: center;
+    background-image: url(./assets/3.jpeg);
+    background-size: cover;
+    padding: 30px;
+    border-radius: 10px;
+    width: 60rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin: 3rem 0;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 4px 9px #171717d7;
+    font-family: "Anton SC", sans-serif;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+#weatherDisplay, p {
+    color: #171717;
+}
+
+.weather-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weather-info input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+    transition: border-color 0.3s ease;
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #222222;
+}
+
+.weather-info input:focus {
+    border-color: #171717a4;
+    outline: none;
+}
+
+.weather-info button {
+    padding: 10px 20px;
+    background-image: url(./assets/3.jpeg);
+    backdrop-filter: blur(5px);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.weather-info button i {
+    padding-right: 10px;
+}
+
+.weather-info button:hover {
+    background-color: #0a6b49;
+    transform: scale(1.05);
+}
+
+#weatherDisplay {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+#extendedForecast {
+    margin-top: 20px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.forecast-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 2px 7px rgba(0, 0, 0, 0.95);
+    font-family: "Anton SC", sans-serif;
+    font-weight: 200;
+    letter-spacing: 1px;
+    margin-top: 0;
+}
+
+.forecast-day {
+    background-color: #ffffff25;
+    backdrop-filter: blur(5px);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    width: 22%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    flex: 1 1 calc(25% - 20px);
+    box-sizing: border-box;
+}
+
+.forecast-day p {
+    margin: 5px 0;
+    color: rgba(0, 0, 0, 0.842);
+    font-size: 18px;
+    font-weight: normal;
+}
+
+/* FOOTER */
+.footer {
+    width: 100%;
+    color: #171717;
+    text-align: center;
+    font-weight: 300;
+    padding: 1rem 0;
+    position: relative;
+    margin-bottom: 0
+}
+
+.footer__social {
+    margin-bottom: .50rem;
+}
+
+.footer__icon {
+    font-size: 1.2rem;
+    color: #171717;
+    margin: 0 .50rem;
+}
+
+.footer__copy {
+    font-size: 1rem;
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* MEDIA-QUERY */
+@media (max-width: 600px) {
+    body {
+        justify-content: center;
+        align-items: flex-start;
+        padding-top: 20px;
+
+    }
+
+    .container {
+        margin-left: 1rem;
+        margin-top: 4rem;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.39);
+        width: 20rem;
+        margin-top: 0;
+    }
+
+    .weather-info input {
+        margin-bottom: 10px;
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .weather-info button {
+        margin-top: 10px;
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .footer{
+        text-shadow: none;
+        box-shadow: none;
+    }
+    
+    .forecast-container {
+        width: 15rem;
+    }
+
+    .forecast-day {
+        width: 100%;
+        flex: 1 1 100%;
+    }
+}
+
+
+
