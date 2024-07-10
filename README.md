@@ -16,6 +16,9 @@ WeatherScan Home![1](https://github.com/arshad1900/WeatherScan/assets/116487598/
 
 WeatherScan Forecast![2](https://github.com/arshad1900/WeatherScan/assets/116487598/f9beb424-6b6d-4d81-ac5d-2ec88408e608)
 
+## Demo
+
+Take a live demo of WeatherScan: [Live Demo](https://arshad1900.github.io/WeatherScan/)
 
 ## Technologies Used
 
